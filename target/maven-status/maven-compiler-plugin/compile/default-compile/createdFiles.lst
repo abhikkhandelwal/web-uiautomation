@@ -1,0 +1,4 @@
+com\totalgarciniadiscount\automation\MSExcelAutomation.class
+com\totalgarciniadiscount\automation\WebUIAutomation.class
+com\totalgarciniadiscount\automation\TestBase.class
+com\totalgarciniadiscount\automation\Helper.class

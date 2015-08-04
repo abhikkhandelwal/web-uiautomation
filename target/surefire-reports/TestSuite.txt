@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 86.323 sec <<< FAILURE! - in TestSuite
+buy3CheckoutTest(com.totalgarciniadiscount.automation.Buy3CheckoutTest)  Time elapsed: 21.63 sec  <<< FAILURE!
+java.lang.AssertionError: Unsucessful Transaction 
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.totalgarciniadiscount.automation.Buy3CheckoutTest.buy3CheckoutTest(Buy3CheckoutTest.java:95)
+
+buy2CheckoutTest(com.totalgarciniadiscount.automation.Buy2CheckoutTest)  Time elapsed: 21.244 sec  <<< FAILURE!
+java.lang.AssertionError: Unsucessful Transaction
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.totalgarciniadiscount.automation.Buy2CheckoutTest.buy2CheckoutTest(Buy2CheckoutTest.java:96)
+
+buy1CheckoutTest(com.totalgarciniadiscount.automation.Buy1CheckoutTest)  Time elapsed: 17.82 sec  <<< FAILURE!
+java.lang.AssertionError: Unsucessful Transaction
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.totalgarciniadiscount.automation.Buy1CheckoutTest.buy1CheckoutTest(Buy1CheckoutTest.java:96)
+

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Suite]" parallel="none">
+  <test name="Test(failed)" parallel="none">
+    <classes>
+      <class name="com.totalgarciniadiscount.automation.Buy2CheckoutTest">
+        <methods>
+          <include name="initialize"/>
+          <include name="buy2CheckoutTest" invocation-numbers="0"/>
+          <include name="doIHaveToSkip"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- com.totalgarciniadiscount.automation.Buy2CheckoutTest -->
+      <class name="com.totalgarciniadiscount.automation.Buy1CheckoutTest">
+        <methods>
+          <include name="buy1CheckoutTest" invocation-numbers="0"/>
+          <include name="doIHaveToSkip"/>
+        </methods>
+      </class> <!-- com.totalgarciniadiscount.automation.Buy1CheckoutTest -->
+      <class name="com.totalgarciniadiscount.automation.Buy3CheckoutTest">
+        <methods>
+          <include name="buy3CheckoutTest" invocation-numbers="0"/>
+          <include name="doIHaveToSkip"/>
+        </methods>
+      </class> <!-- com.totalgarciniadiscount.automation.Buy3CheckoutTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
